@@ -1,0 +1,97 @@
+.grid{
+    grid-gap: 10px;
+    border: 20px solid blue;
+    display: grid;
+    grid-template-rows: 100px 80px 100px;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    color: black;
+}
+
+.child1{
+    text-align: center;
+    grid-column: 1/4;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.child2{
+    text-align: center;
+    grid-row: 2/4;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.child3{
+    text-align: center;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.child4{
+    text-align: center;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.child5{
+    text-align: center;
+    grid-column: 2/4;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.flex-container{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* flex-direction: column; */
+}
+
+.flex-child{
+    width: 200px;
+    height: 100px;
+    color: beige;
+    /* margin-bottom: 20px; */
+    background-color: red;
+    /* margin: 50px; */
+
+}
+
+/* .flex-child2{
+    width: 200px;
+    height: 100px;
+    color: beige;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+
+.flex-child3{
+    width: 200px;
+    height: 100px;
+    color: beige;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.flex-child4{
+    width: 200px;
+    height: 100px;
+    color: blueviolet;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.flex-child5{
+    width: 200px;
+    height: 100px;
+    color: blueviolet;
+    margin-bottom: 20px;
+    background-color: red;
+}
+ */
